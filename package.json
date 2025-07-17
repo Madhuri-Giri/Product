@@ -1,6 +1,5 @@
 {
   "name": "pharmacy",
-  "homepage": "/projects/Jhindrop",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
