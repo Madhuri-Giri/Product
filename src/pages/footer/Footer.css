@@ -1,0 +1,215 @@
+.footer-main {
+       width: 100%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       background: #f4fbff;
+}
+
+.footer-main .footer {
+       width: 100%;
+       display: flex;
+       align-items: flex-start;
+       justify-content: center;
+       flex-direction: row;
+       margin-top: 2vmax;
+       gap: 1vmax;
+       margin-bottom: 0.6vmax;
+       border-bottom: 1px solid #00000051;
+}
+
+.f-left {
+       width: 35%;
+       display: flex;
+       align-items: flex-start;
+       justify-content: center;
+       flex-direction: row;
+}
+
+.f-right {
+       width: 35%;
+       display: flex;
+       align-items: flex-start;
+       justify-content: center;
+       flex-direction: row;
+}
+
+.one {
+       width: 50%;
+       display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+       justify-content: space-between;
+}
+
+.footer-main .footer img {
+       width: 60%;
+}
+
+.one h1 {
+       margin-bottom: 2vmax;
+       font-size: 1.1vmax;
+}
+
+.one a {
+       font-size: 1vmax;
+       margin-top: 0.6vmax;
+       cursor: pointer;
+       text-decoration: none;
+       color: gray;
+}
+
+.one a:hover {
+       color: blue;
+}
+
+.one .media {
+       width: 70%;
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+}
+
+.one .media i {
+       padding: 0.6vmax;
+       border: 1px solid #808080;
+       border-radius: 50px;
+       font-size: 1.2vmax;
+}
+
+.one .media i:hover {
+       border: 1px solid blue;
+}
+/* Copyright section styling */
+.footer-copyright{
+       background: #f4fbff;
+       text-align: center;
+       margin-bottom: 0.5rem;
+}
+@media (max-width:600px) {
+       .footer-main {
+              width: 100%;
+       }
+
+       .footer-main .footer {
+              width: 100%;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+       }
+
+       .f-left {
+              width: 90%;
+              display: flex;
+              align-items: flex-start;
+              justify-content: center;
+              flex-direction: row;
+              margin-top: 2vmax;
+       }
+
+       .f-top {
+              display: none;
+       }
+
+       /* .f-top img{
+                    width: 50%;
+           } */
+       .f-right {
+              width: 90%;
+              display: flex;
+              align-items: flex-start;
+              justify-content: center;
+              flex-direction: row;
+              margin-top: 2vmax;
+       }
+
+       .one {
+              width: 50%;
+       }
+
+       .one h1 {
+              font-size: 1.8vmax;
+       }
+
+       .one a {
+              font-size: 1.4vmax;
+
+       }
+
+       .one a:hover {
+              color: blue;
+       }
+
+       .one .media {
+              width: 70%;
+       }
+
+       .one .media i {
+              padding: 0.5vmax;
+              font-size: 1.5vmax;
+       }
+}
+
+@media (min-width:600px) and (max-width:1150px) {
+       .footer-main {
+              width: 100%;
+       }
+
+       .footer-main .footer {
+              width: 100%;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+       }
+
+       .f-left {
+              width: 90%;
+              display: flex;
+              align-items: flex-start;
+              justify-content: center;
+              flex-direction: row;
+              margin-top: 2vmax;
+       }
+
+       .f-top {
+              display: none;
+       }
+
+       /* .f-top img{
+                    width: 50%;
+           } */
+       .f-right {
+              width: 90%;
+              display: flex;
+              align-items: flex-start;
+              justify-content: center;
+              flex-direction: row;
+              margin-top: 2vmax;
+       }
+
+       .one {
+              width: 50%;
+       }
+
+       .one h1 {
+              font-size: 1.8vmax;
+       }
+
+       .one a {
+              font-size: 1.4vmax;
+       }
+
+       .one a:hover {
+              color: blue;
+       }
+
+       .one .media {
+              width: 70%;
+       }
+
+       .one .media i {
+              padding: 0.5vmax;
+              font-size: 1.5vmax;
+       }
+
+}

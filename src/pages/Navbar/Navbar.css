@@ -1,0 +1,59 @@
+.main-pharma {
+  position: relative;
+}
+
+/* Logo container styles */
+.logo-container {
+  flex-basis: 20%;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  justify-content: flex-end;
+  padding-left: 40px;
+}
+
+/* Logo size and positioning */
+.logo {
+  width: 70%;
+  max-width: 40%;
+  position: relative;
+  z-index: 1111;
+}
+
+/* Navigation links container */
+.nav-links-container {
+  flex-basis: 80%;
+  justify-content: flex-end;
+}
+
+/* Navbar navigation */
+.navbar-nav {
+  gap: 25px;
+  margin-right: 5vmax;
+}
+
+/* Navigation link styles */
+.nav-link {
+  color: #000;
+  font-size: 1rem;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+
+
+.nav-link:hover {
+  color: #848484 !important;
+}
+
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+  .container-fluid img {
+    width: 100%;
+  }
+  .logo {
+    width: 100%; 
+    max-width: 100%; 
+  }
+}
+

@@ -1,0 +1,285 @@
+.company_container img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+
+/* ----------------- Slider Styles ----------------- */
+.company_slider .company_slide {
+  padding: 20px;
+  margin-right: 20px;
+  background-color: #27ae60;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.company_slider .company_slide:hover {
+  background-color: #f2f2f2;
+  color: #27ae60;
+  transform: scale(1.05);
+}
+
+.company_heading,
+.company_title {
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.company_slider .company_slide:hover .company_heading,
+.company_slider .company_slide:hover .company_title {
+  color: #27ae60;
+}
+
+.slick-list {
+  padding: 0 10px;
+}
+
+.company_slider {
+  width: 80%;
+  margin: 40px auto;
+  padding: 20px 0;
+  height: 270px;
+}
+
+.company_slide {
+  text-align: center;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  height: 200px;
+}
+
+.company_heading {
+  margin-top: 30px;
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.company_title {
+  font-size: 22px;
+  color: #000;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+.slick-slide {
+  padding: 0 10px;
+}
+
+/* ----------------- Company Box ----------------- */
+.company_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.company_box img {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 30px;
+}
+
+.company_text {
+  z-index: 2;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 12px;
+  box-sizing: border-box;
+  width: fit-content;
+}
+
+.company_text h6 {
+  font-size: 16px;
+}
+
+.company_text h5 {
+  font-size: 20px;
+}
+
+.company_text h3 {
+  font-size: 24px;
+}
+
+.company_head {
+  margin-left: 50px;
+}
+
+.company_head h4 {
+  margin-top: 30px;
+}
+
+/* ----------------- Company Range ----------------- */
+.company_range {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #27ae60;
+  padding: 20px 10px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.company_range h1 {
+  color: #ffffff;
+  font-size: 32px;
+}
+
+.company_range p {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+/* ----------------- Company Info ----------------- */
+.company_info {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #ffffff;
+}
+
+.company_info h3 {
+  color: #000;
+  background-color: rgba(0, 0, 0, 0.03);
+  text-align: center;
+  padding: 9px 15px;
+}
+
+/* ----------------- Responsive Styles ----------------- */
+
+/* Medium screens (≤1200px) */
+@media (max-width: 1200px) {
+  .company_box {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .company_head {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .company_text {
+    margin-top: 20px;
+  }
+}
+
+/* Tablets (≤768px) */
+@media (max-width: 768px) {
+  .company_slider {
+    width: 95%;
+    padding: 10px 0;
+    height: auto;
+  }
+
+  .company_slider .company_slide {
+    margin-right: 10px;
+    padding: 15px;
+    height: auto;
+  }
+
+  .company_heading {
+    font-size: 14px;
+    margin-top: 15px;
+  }
+
+  .company_title {
+    font-size: 18px;
+  }
+
+  .slick-slide {
+    padding: 0 5px;
+  }
+
+  .company_text h6 {
+    font-size: 14px;
+  }
+
+  .company_text h5 {
+    font-size: 16px;
+  }
+
+  .company_text h3 {
+    font-size: 18px;
+  }
+}
+
+/* Small devices (≤480px) */
+@media (max-width: 480px) {
+  .company_container img {
+    height: 300px;
+  }
+
+  .company_slider {
+    width: 100%;
+    height: 160px;
+    padding: 0;
+  }
+
+  .company_slide {
+    padding: 10px;
+    height: auto;
+  }
+
+  .company_heading {
+    font-size: 12px;
+  }
+
+  .company_title {
+    font-size: 16px;
+  }
+
+  .company_text {
+    margin-top: 150px;
+    padding: 10px;
+  }
+
+  .company_text h6,
+  .company_text h5,
+  .company_text h3 {
+    font-size: 12px;
+  }
+
+  .company_head h4 {
+    font-size: 16px;
+  }
+
+  .company_head p {
+    font-size: 12px;
+  }
+
+  .company_range h1 {
+    font-size: 20px;
+  }
+
+  .company_range p {
+    font-size: 14px;
+  }
+
+  .company_info h3 {
+    font-size: 16px;
+  }
+
+  .company_info p {
+    font-size: 12px;
+  }
+
+  .company_info h5 {
+    font-size: 14px;
+  }
+
+  .company_info ul,
+  .company_info li {
+    font-size: 12px;
+  }
+}

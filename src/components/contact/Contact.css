@@ -1,0 +1,142 @@
+.contact-con {
+  padding-top: 80px;
+}
+
+.policy_heading {
+  width: 100%;
+  text-align: center;
+  background: #27ae60;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.policy_heading h1 {
+  font-size: 3vmax;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.contact_box {
+  background-color: #f9f9f9;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+}
+
+.contact_box h4,
+.contact_box h5 {
+  color: #27ae60;
+}
+
+.contact_box p {
+  color: #6d6b6b;
+  margin-bottom: 1rem;
+}
+
+.contact_map iframe {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  border: none;
+}
+
+.con_head h3 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #17a2b8;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+/* Contact Form */
+.contact_container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.form-page {
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 30px;
+  background: #fff;
+}
+
+.form-page h5 {
+  color: #17a2b8;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ipt input,
+.ipt select,
+.ipt textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.ipt textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.btn-cont button {
+  background-color: transparent;
+  color: #17a2b8;
+  border: 2px solid #17a2b8;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-cont button:hover {
+  background-color: #17a2b8;
+  color: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .form-page {
+    padding: 20px;
+  }
+
+  .con_head h3 {
+    font-size: 1.6rem;
+  }
+
+  .policy_heading h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .contact_map iframe {
+    height: 200px;
+  }
+
+  .contact_box {
+    padding: 20px 15px;
+  }
+
+  .form-page h5 {
+    font-size: 1.2rem;
+  }
+
+  .btn-cont button {
+    width: 100%;
+  }
+}
